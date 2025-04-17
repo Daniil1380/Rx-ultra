@@ -4,21 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.javabruse</groupId>
-    <artifactId>RxJavaWork</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>com.daniil1380</groupId>
+    <artifactId>rx-ultra-lib</artifactId>
+    <version>1.0</version>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>io.reactivex</groupId>-->
-<!--            <artifactId>rxjava</artifactId>-->
-<!--            <version>1.3.8</version>-->
-<!--        </dependency>-->
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.17.0</version>
             <scope>test</scope>
         </dependency>
 
